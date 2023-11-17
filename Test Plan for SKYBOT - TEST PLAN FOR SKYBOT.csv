@@ -1,0 +1,157 @@
+Process,Test case,Step,Description,Status,Expected Result,Actual Result,Comment
+Вступна частина (Introduction),,,"We are developing, testing, and implementing a B2C portal for a company that sells and services electric vehicles under the brand name SKYBOT",Discussed,N/A,N/A,"Based on a few weeks from begining our project, we just start our conversation with client. Up to this moment, we have discussed our input technical requirements."
+"We are developing, testing, and implementing a B2C portal for a company that sells and services electric vehicles under the brand name SKYBOT",,1. Discussion with the client our entry criteria / improving them,,,,,
+,,,,Changed,,,
+,,,,Accepted,,,
+,,2. Creating checklists to every technical requirement,,Accepted,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Вхідні критерії (Entry Criteria),,,,,,,
+Agreed upon input technical requirements,,,,,,,
+"1. The portal should have a fast, stable and secure web hosting that can handle a sufficient number of visitors.",N/A,In 4th priority,"Our users have stable connection when they visit our portal and all pages have fast loading. Portal uptime is 99,9%. And finally, support team are always ready to answer any question. ",Accepted,,,
+2. A mobile version of the portal that is able to work quickly on mobile devices.,,In 6th priority,"The mobile version of the portal or mobile app is able to run on mobile devices supporting Android and IOS operating systems and in browsers compatible with these mobile operating systems (Chrome, Safari, Mozilla)",Accepted,,,
+3. The design of the portal should correspond to the theme of the Internet portal and be able to update elements through the CMS console.,,In 5th priority,"Design is a minimalistic, but functional and understandable for the users. All pages have necessary buttons and navigation map. The website design fully reflects the theme and purpose of our store. The portal CMS should be able to develop (implement) any design that the customer needs.",Accepted,,,
+4. Stable operation of the website frontend,,In 3rd priority,"Responsive design. The portal is compatible with different screen sizes, including mobile devices, tablets, and desktop computers. All employees could update the portal without deep understanding the website frontend",Accepted,,,
+5. Stable performance of the portal backend,,In 1st priority,Databases can be queried to fetch and return information on-demand to be displayed by the frontend. The user base should is a multi-level system (2 copies for backup). Backup of the SQL database should be performed once a day and should be administered by the hosting provider's staff.,Accepted,,,
+6. Fast ordering process.,,In 7th priority,"Users can place orders directly, selecting their preferred items. Users could completing an order by phone number (quick form). The regular form is possible by filling phone number and email. Also users recieve feedback by SMS or Whatsapp",Accepted,,,
+7. User security and secure payments,,In 2nd priority,The portal enables secure online payment options integrated payment systems like Apple Pay or Google Pay. The website use the https protocol with a valid SSL certificate. All credit card information is stored on database of the website in an encrypted form.,Accepted,,,
+8. Information about each electric vehicle model with a detailed description.,,In 8th priority,Users could see all information about each model with a detailed technical description. Also users could use contact form if they noticed some technical mismatches,Accepted,,,
+9. Possibility to sign up for a test drive from the portal,,In 11th priority,The form for signing up for a test drive allows anyone to register using a phone number.  The website doesn't allow sign up for test drive users under the age of 13 (age validation).,Accepted,,,
+"10. Register users, who have already purchased a product (model), have opportunity to sign up to the service center.",,In 10th priority,"All customers who need warranty support, could fill the special form and book appointment at the service center. All users also could fill quick form for a non-warranty (paid repair) service using a phone number. And everyone could recieve a non-warranty (paid repair) service if they purchased the product (supported model) from another supplier.",Accepted,,,
+11. Product reviews,,In 9th priority,Reviews can be submitted by any registered user. The item rating scale is present in every product item.,Accepted,,,
+12. Customized product recommendations,,In 13th priority,All users who have already purchased a product - receive a newsletter with recommendations to the registered number with option to unsubscribe. Also users who have registered the purchased item on the website receive a reminder about the end of warranty support. Users who have registered but have not yet purchased a product receive a notification about the product they have viewed. Users who have registered and placed an item in the cart receive a reminder to pay for this item.,Accepted,,,
+13. Integration of the portal with video hosting to view video reviews of products (models).,,In 12th priority,Our portal will be integrated with YouTube video hosting. Video hosting channel where the reviews are posted has private access for editing and adding videos by the site owners. Each user who has purchased a product (a certain model) can leave a video of unpacking by sending a link to the portal administrator.,Accepted,,,
+14. Technical capability to implement analytics tools.,,In 14th priority,The website is integrated with SEO tools. An SEO specialist can get support from the developer to solve issues with the integration of their own tools for collecting statistics.,Accepted,,,
+Availability of the test team to perform testing,,,"All test team are ready to perfom testing the website. With this website will work 45 people, who abble to test our website on a different OS / mobile phones / browsers. And also have various experience in this area",Accepted,,,
+Availability of the test environment for test running,,,"We have access to VPS Servers (Параметри віртуальних серверів) where we could test our portal also we have different types of devices, which will help us test our portal ",Verification,,,
+Tests to be performed,,,,,,,
+Functional testing,N/A,,"~ checking links our website (internal, outgoing, isolated, etc.);
+~ cookie test - required to support sessions with authorization;
+~ checking the database - need to make sure that requests are executed correctly, as well as that data is extracted and updated;
+~ testing of user forms (e.g., leave a request, write in a feedback form, leave a comment or review);
++
+negative testing;",Planing,,,
+Usability Testing,,,"~ navigation testing - checking access to menus, pages, blocks, fields, and buttons. It is important that the structure is logical and understandable;
+~ content verification - checks grammar and spelling, header placement, and the size of images;",Planing,,,
+Compatibility Testing,,,"~ OS testing – verifies compatibility with different operating systems, such as Windows, Linux and Mac;
+~ browser (Cross-browser) testing – verifies compatibility across different browsers — such as Internet Explorer, Google Chrome, Safari, and Firefox, as well as across browsers on different devices, such as laptops, Androids, tablets, and iPhones;
+~ network testing – verifies compatibility and performance in different networks, such as 3G, 4G, and Wi-Fi;",Planing,,,
+Performance Testing,,,"~ stress tests - evaluates the behavior of systems facing peak activity. These tests significantly and continuously increase the number of users during the testing period;
+~ load testing - simulates the number of virtual users that might use an application. In reproducing realistic usage and load conditions, based on response times;
+~ volume testing - check system performance with increased volume of data in the database.",Planing,,,
+Security Testing,,,"involves verifying the software's compliance with security standards, evaluating the security features and mechanisms, and conducting penetration tests to identify weaknesses and vulnerabilities that might be exploited by malicious actors.",Planing,,,
+User Interface (UI) Testing,,,UI testing is necessary to meet these standards by ensuring that every feature works as expected. UI testing is also used to ascertain if the visual and auditory aspects of the website or app are pleasing and capable of keeping the user interested. ,Planing,,,
+Payment Gateway Testing,,,"Refers to testing the functionality and security of a payment system or application. This can include testing the various components of the system, such as the payment gateway, payment processors, and payment methods, to ensure that they are working correctly and securely. Payment testing can also include testing for compliance with industry regulations and standards and for vulnerabilities and potential security breaches.",Planing,,,
+Test Deliverables,,,,,,,
+"1. Fast, stable and secure web hosting checklist",,N/A,"Check the load on the portal with a different number of visits (100 / 500 / 1000);
+Checking the portal uptime (whether it corresponds to the declared 99.9%)
+Check the loading speed of a web resource using any specialized service (PageSpeed Insights)
+Checking the operation of hosting and the ability to respond in case of an emergency
+Checking the response of the support team during the working hours indicated on the website (sending a text message)",Verified,,,
+2. Mobile compatibility checklist,,,"An approach to open the portal in any browser (Chrome, Opera, Firefox Microsoft Edge), as well as on any monitor regardless of the screen size.
+Adaptability to mobile devices. The site should be displayed correctly on any smartphone or tablet (iOs, Android).
+Checking the portal download speed via mobile Internet (3G, 4g LTE, 5g)",Verified,,,
+3. Design checklist,,,"No accumulation of elements
+Spell checking and typos removal
+Check the optimal size of clickable elements
+Unambiguity and clarity",Verified,,,
+4. Frontend work checklist,,,"Checking the quick addition a new product to the portalUpdate existing products and information related to them
+Convenient location of the online support icon
+Adding an item to the cart and correctly displaying the number of items in the cart
+Remove an item from the cart",Verified,,,
+5. Backend work checklist,,,"Checking the database operation
+Adding a new user to the database
+Deleting a user and all his or her data
+Registration of participants for a test drive and recording their data in the database
+Registration of participants for repairs and recording their data
+Reliable operation of the API, which is used to interact with other programs (for example, payment for goods through online banking)
+Verification of existing orders (information about the customer, product and payment)",Verified,,,
+6. Ordering process checklist,,,"Add functionality if all the required fields are not filled in, no button will appear to proceed further 
+Fulfillment of an order by phone number in the form of a quick form ( numeric input, the appropriate number of digits)
+Fulfillment of the order by phone number in the form of a quick form (a set of letters and signs)
+Fulfillment of an order by phone number in the form of a quick form (digital dialing, insufficient number of digits)
+Fulfillment of the order using the usual order form, with the phone number and email (all characters are entered correctly and without errors)
+Completing an order using a regular order form, using a phone number and email (inappropriate characters, symbols, empty form)
+After completing the order and registration, receiving feedback via Whatsapp or SMS
+After registering an order and a new user, there is no feedback
+",Verified,,,
+7. Security checklist,,,"Implementation of two-factor authentication for better data security. Does the transition to different pages work?
+Checking the fulfillment of payment for the order using various payment methods (Apple Pay, Google Pay, PayPal, Internet banking)
+Checking the encryption of customer card data
+Automatic logout of a user after a certain period of inactivity
+Check whether the appropriate amount is charged to the customer's card",Verified,,,
+8. Detailed information about each items checklist,,,"The ability to add new product information at any time or update existing information (only for the site administrator or those who take care of it)
+When you add new information to the page, all data is updated instantly and without problems
+Check for all the necessary filters to search for a product by name
+Check whether the already registered/unregistered client can/can't modify and add technical specifications to the portal (only the administrator can have such rights)",Verified,,,
+9. Registration to a test drive checklist,,,"Maintain all relevant data for filling out the test drive form (letters and numbers on the appropriate lines)
+Entering incorrect data to fill out the form
+In the ""Date"" field, select the days that have already passed
+In the ""Time"" field, select the hours during which the portal does not work
+Attempt to register minors
+Attempting to register for a test drive using the wrong phone number
+Attempting to register for a test drive using an incorrect number of digits (too many/too few)",Verified,,,
+10. Sign up to the service center checklist,,,"Checking the availability of a corresponding button that would allow users to sign up for a service center, the clickability of the button
+Check if the portal offers relevant dates and hours of operation
+Check if the portal records information in the database when filling out the quick form for registering for non-warranty repairs (paid) using a phone number
+Check if the user receives information that this is a paid service and is not covered by the warranty when filling out the form for non-warranty repair (paid)
+Check how the portal will react if the user provides a warranty number that has already expired",Verified,,,
+11. Product reviews checklist,,,"Check if the window where you can leave a review is displayed correctly and if all fields are clickable
+Check whether every visitor to our portal can leave a review
+Check if only registered customers can leave a review
+Check how reviews are displayed (by date or randomly)
+Check whether the portal correctly counts customer votes, thereby assigning a rating
+Check if reviews can be deleted, updated, and if the product rating has changed",Verified,,,
+12. Customized product recommendations checklist,,,"Check if users who have already purchased the product receive a newsletter with recommendations
+Check whether users who have not yet purchased a product but have registered do not receive a newsletter with recommendations for any model
+Check whether users who purchased the product receive a reminder about the end of warranty support
+Check if users who have registered but have not yet purchased a product receive a reminder about the product they have viewed
+Check whether users who have already registered and put an item in the cart receive a reminder about the item in the cart",Verified,,,
+13. Video hosting checklist,,,"Check if it is possible to add, delete and modify existing videos by the administrator
+Check whether it is possible for different users to add, remove and make changes to existing videos without administrator ""keys""
+Check if the video has the necessary buttons for control (start, pause, forward, back, volume)
+Check if the video can be opened in full screen
+Check if the video has audio (if applicable)",Verified,,,
+14. Analytics tools checklist,,,"Check if the integration of the portal with SEO tools is displayed correctly
+Check whether our portal can cooperate with various web analytics services (Google Analytics, Mixpanel, SimilarWeb, Woopra)
+Check if our portal has special tags to track the necessary information for analysis
+Check whether all the necessary information about user visits, average time spent on the site, and whether the ultimate goal (purchase) is achieved is correctly displayed and can be used for further analysis",Verified,,,
+Environments tests,Windows 10\11 test,,"Windows 10 compatibility test
+Windows 11 compatibility test",Passed,,,
+,Ubuntu 20+ test,,Ubuntu 20+ compatibility test,Not passed,,,
+,MacOS Monterey test,,"MacOS Monterey compatibility test
+MacOS Catalina compatibility test",Passed,,,
+,Google Chrome,,Google Chrome compatibility test,Passed,,,
+,Microsoft Edge,,Microsoft Edge compatibility test,Not passed,,,
+,Mozilla Firefox,,Mozilla Firefox compatibility test,Not passed,,,
+,Safari (нативно),,Safari compatibility test,Passed,,,
+,Android Version phone,,"Android 09.0 compatibility test
+Android 10.0 compatibility test
+Android 11.0 compatibility test
+Android 12.0 compatibility test
+Android 13.0 compatibility test",Verifing,,,
+,iOS Version phone,,"IOS 14 (emulated)backward compatibility test
+IOS 15 (all subsequent versions) compatibility test
+IOS 16 (all subsequent versions) compatibility test",Verifing,,,
+Exit Criteria,Passed case1,,,,,,
+,Passed case 2,,,,,,
+,Passed case 3,,,,,,
+,,Fixed bug 1,,,,,
+,,Fixed bug 2,,,,,
+,,Fixed bug 3,,,,,
+,,,,,,,
+Risks and Contingencies,,,,,,,
+Technical problems,,,"Risk: Users could have some 
+inconveniences with our webportal, such as slow performance, unstable connection, unclickable buttons or problems with compatibility
+",,,,
+,,,"Contingency: Use different test procedures to find, fix any technical issues before we open acess to users. After opening the portal must recieve maintenance.",,,,
+Online payment issues,,,"Risk: Users could have difficulties durring process of payments: failed transaction, incorrect amount
+",,,,
+,,,"Contingency: Our team should use only approved methods and secure payment systems and all the time evaluate the security features and mechanisms. Also we should have reliable support team, where any customer could send their request and recieve answer and help",,,,
+Communication,,,"Risk: Customers could have some inconveniences during sending feedback, connecting with customer support or just trying to give us positive review.",,,,
+,,,Contingency:  Support team should track everyday the contact channels and give feedback to all users. Also communication chanel shiuold be easy and simple in use.,,,,
+Privacy policy,,,Risk: Some users could have some concerns about gathering thier personal information by website.,,,,
+,,,Contingency: Portal should present a transparent and proper position regarding our clients' data. All users have the opportunity to check out the firm's policy. They must tick all the required boxes and confirm that they agree to it. ,,,,
+Errors in photo image,,,Risk: Customers could have inconveniences during sellecting electric vehicles by the photos. Photos may have some errors or photos might not be displayed at all.,,,,
+,,,"Contingency: Photos must have several general format and sizes. Also technical support must review portal all time, especially after different backups or technical maintenance.",,,,
